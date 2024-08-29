@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--bgSoft);
+    border-bottom: 1px solid #ddd;
+}
+
+.leftSection {
+    display: flex;
+    align-items: center;
+}
+
+.backArrow {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: var(--text);
+    font-weight: 700;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 300;
+    margin-right: 15px;
+    color: #333;
+}
+
+.inProgress {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff9800;
+    background-color: #FFE9D0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.rightSection {
+    display: flex;
+    gap: 15px;
+}
+
+.card1 {
+    background-color: #f5efff;
+    color: #AD49E1;
+    font-weight: 500;
+    padding: 8px 20px;
+    border: 1px solid #AD49E1;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.card2 {
+    background-color: #f5efff;
+    color: #D20062;
+    font-weight: 500;
+    padding: 8px 20px;
+    border: 1px solid #D20062;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #f0f0f0;
+}

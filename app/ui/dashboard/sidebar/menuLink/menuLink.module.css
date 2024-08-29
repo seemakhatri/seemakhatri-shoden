@@ -1,0 +1,23 @@
+.container{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin:5px 0px;
+    border-radius: 30px;
+    color: var(--textColor);
+}
+
+.container:hover, .active {
+    background-color: #e5e9ff;
+    color: #8758FF;
+
+}
+
+.icon {
+    font-size: 20px; 
+}
+
+.title {
+    font-size: 14px;
+}
